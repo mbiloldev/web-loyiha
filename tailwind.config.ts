@@ -5,10 +5,6 @@ const config: Config = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
 
         },
-        saffron: {
-          DEFAULT: "#E8A020",
-          light: "#F2BC55",
-          dark: "#C4841A",
         },
         terracotta: {
           DEFAULT: "#C4603A",
