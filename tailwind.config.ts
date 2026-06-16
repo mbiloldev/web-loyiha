@@ -3,8 +3,21 @@ import type { Config } from "tailwindcss";
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        // Core palette — warm, nurturing, kitchen-inspired
+        cream: {
+          DEFAULT: "#FAF6EF",
+          dark: "#F2EAD8",
         },
+        saffron: {
+          DEFAULT: "#E8A020",
+          light: "#F2BC55",
+          dark: "#C4841A",
         },
         terracotta: {
           DEFAULT: "#C4603A",
